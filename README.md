@@ -51,7 +51,7 @@ A curated list of literatures (after 2000) on U.S. Treasury quantiative research
 * (2007) [Informed and Strategic Order Flow in the Bond Markets](https://academic.oup.com/rfs/article-abstract/20/6/1975/1575509?redirectedFrom=fulltext)
 * (2007) [Price discovery in the Treasury Futures Market](https://faculty.fuqua.duke.edu/~mbrandt/papers/published/cti.pdf)
 * (2007) [The High-Frequency Response of Exchange Rates and Interest Rates to Macroeconomic Announcements](https://www.sciencedirect.com/science/article/abs/pii/S0304393206001565)
-* (2006) [Automation versus Intermediation: Evidence from Treasuries Going Off the Run] (https://faculty.haas.berkeley.edu/hender/on-off.pdf)
+* (2006) [Automation versus Intermediation: Evidence from Treasuries Going Off the Run](https://faculty.haas.berkeley.edu/hender/on-off.pdf)
 * (2006) [The Transition to Electronic Communications Networks in the Secondary Treasury Market](https://files.stlouisfed.org/files/htdocs/publications/review/06/11/Mizrach.pdf)
 * (2005) [Macroeconomic announcements and asymmetric volatility in bond returns](https://www.sciencedirect.com/science/article/abs/pii/S0378426606000112)
 * (2004) [Economic News and the Impact of Trading on Bond Price](https://www.jstor.org/stable/3694734?seq=1)
@@ -71,4 +71,3 @@ A curated list of literatures (after 2000) on U.S. Treasury quantiative research
 ### Bond Futures
 * (2018) [The Treasury Futures Delivery Process](https://www.cmegroup.com/trading/interest-rates/files/us-treasury-futures-delivery-process.pdf)
 * (2017) [Understanding Treasury Futures](https://www.cmegroup.com/education/files/understanding-treasury-futures.pdf)
-0071456104/ref=sr_1_1?dchild=1&keywords=The+Treasury+Bond+Basis&qid=1586712562&s=books&sr=1-1)
