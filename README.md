@@ -45,8 +45,8 @@ A curated list of literatures (after 2000) on U.S. Treasury quantiative research
 * (2003) [Price Discovery in the U.S. Treasury Market: The Impact of Orderflow and Liquidity on the Yield Curve](https://www.nber.org/papers/w9529.pdf)
 * (2001) [The Announcement Effect: Evidence from Open Market Desk Data](https://core.ac.uk/download/pdf/6792938.pdf)
 * (2001) [Economic News and Bond Prices: Evidence from the U.S. Treasury Market](https://www.jstor.org/stable/2676223?seq=1)
-
 * (2000) [Intraday periodicity, long memory volatility, and macroeconomic announcement effects in the US Treasury bond market](https://www.sciencedirect.com/science/article/abs/pii/S0927539800000025)
+
 
 ### Trading Strategies
 * (2007) [Quantitative Analysis, Derivatives Modeling, And Trading Strategies: In The Presence Of Counterparty Credit Risk For The Fixed-Income Market](https://www.amazon.com/Quantitative-Analysis-Derivatives-Modeling-Strategies/dp/9813203226/ref=sr_1_1?dchild=1&keywords=quantiative+analysis+derivative+modeling+and+trading&qid=1586714088&s=books&sr=1-1-spell), Chapter 15
