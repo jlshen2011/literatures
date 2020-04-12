@@ -1,6 +1,10 @@
 # US Treasury Research
 
-<img src="images/tsy.gif?raw=true" width="600"/>
+<p align="center">
+<img src="images/tsy.gif?raw=true" width="400"/>
+</p>
+
+Notes on market microstructure, quantitative trading and modeling in the U.S. Treasury market.
 
 
 ## References
