@@ -46,7 +46,7 @@ A curated list of literatures (post 2000) on U.S. Treasury quantiative researche
 * [Information Shocks, Liquidity Shocks, Jumps, and Price Discovery: Evidence from the U.S. Treasury Market](https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/information-shocks-liquidity-shocks-jumps-and-price-discovery-evidence-from-the-us-treasury-market/59C0B3C06EBBA04BB16F737A0A2DB122) (2010)
 * [Information-Based Trading in the Treasury Note Interdealer Broker Market](https://www.sciencedirect.com/science/article/abs/pii/S1042957302903384) (2002)
 * [Informed and Strategic Order Flow in the Bond Markets](https://academic.oup.com/rfs/article-abstract/20/6/1975/1575509?redirectedFrom=fulltext) (2007)
-* [Intraday periodicity, long memory volatility, and macroeconomic announcement effects in the US Treasury bond market](https://www.sciencedirect.com/science/article/abs/pii/S0927539800000025) (2000)
+* [Intraday Periodicity, Long Memory Volatility, and Macroeconomic Announcement Effects in the US Treasury Bond Market](https://www.sciencedirect.com/science/article/abs/pii/S0927539800000025) (2000)
 * [Intraday Pricing and Liquidity Effects of U.S. Treasury Auctions](http://apps.olin.wustl.edu/Conf/CFAR-FTG/Files/pdf/2017/110.pdf) (2014)
 * [Liquidity, Volatility, and Flights to Safety in the US Treasury Market: Evidence from a New Class of Dynamic Order Book Models](https://www.econstor.eu/bitstream/10419/93594/1/733627927.pdf) (2018)
 * [Macroeconomic announcements and asymmetric volatility in bond returns](https://www.sciencedirect.com/science/article/abs/pii/S0378426606000112) (2005)
