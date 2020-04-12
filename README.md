@@ -31,14 +31,22 @@ A curated list of literatures (after 2000) on U.S. Treasury quantiative research
 * (2000) [Principles of Principal Components: A Fresh Look at Risk, Hedging, and Relative Value](http://quantlabs.net/academy/download/free_quant_instituitional_books_/[Salomon%20Smith%20Barney]%20Principles%20of%20Principal%20Components%20-%20A%20Fresh%20Look%20at%20Risk,%20Hedging%20and%20Relative%20Value.pdf)
 
 
-### Auctions, News Announcements, High Frequency Trading
+### Auctions, News, High Frequency Trading
 * (2018) [Liquidity, volatility, and flights to safety in the US treasury market: Evidence from a new class of dynamic order book models](https://www.econstor.eu/bitstream/10419/93594/1/733627927.pdf)
 * (2016) [Handbook of Fixed-Income Securities](https://www.amazon.com/Fixed-Income-Securities-Handbooks-Engineering-Econometrics-ebook/dp/B01DEWCS3W/ref=sr_1_1?dchild=1&keywords=handbook+of+fixed+income+pietro&qid=1586713734&s=books&sr=1-1), Chapter 11
 * (2014) [High Frequency Trading around Macroeconomic News Announcements: Evidence from the US Treasury Market](https://www.bankofcanada.ca/wp-content/uploads/2014/12/wp2014-56.pdf)
 * (2014) [Intraday Pricing and Liquidity Effects of U.S. Treasury Auctions](http://apps.olin.wustl.edu/Conf/CFAR-FTG/Files/pdf/2017/110.pdf)
+* (2010) [Information Shocks, Liquidity Shocks, Jumps, and Price Discovery: Evidence from the U.S. Treasury Market](https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/information-shocks-liquidity-shocks-jumps-and-price-discovery-evidence-from-the-us-treasury-market/59C0B3C06EBBA04BB16F737A0A2DB122)
+* (2009) [Price discovery in the round-the-clock U.S. Treasury market](https://www.sciencedirect.com/science/article/abs/pii/S1042957309000035)
+* (2007) [Information Shares in the US Treasury Market](https://pdfs.semanticscholar.org/4ce0/c5cd11f48361fc529c6a5c0758643eacb348.pdf)
+* (2006) [The Transition to Electronic Communications Networks in the Secondary Treasury Market](https://files.stlouisfed.org/files/htdocs/publications/review/06/11/Mizrach.pdf)
+* (2005) [Macroeconomic announcements and asymmetric volatility in bond returns](https://www.sciencedirect.com/science/article/abs/pii/S0378426606000112)
+* (2004) [Economic News and the Impact of Trading on Bond Price](https://www.jstor.org/stable/3694734?seq=1)
 * (2003) [Price Discovery in the U.S. Treasury Market: The Impact of Orderflow and Liquidity on the Yield Curve](https://www.nber.org/papers/w9529.pdf)
 * (2001) [The Announcement Effect: Evidence from Open Market Desk Data](https://core.ac.uk/download/pdf/6792938.pdf)
+* (2001) [Economic News and Bond Prices: Evidence from the U.S. Treasury Market](https://www.jstor.org/stable/2676223?seq=1)
 
+* (2000) [Intraday periodicity, long memory volatility, and macroeconomic announcement effects in the US Treasury bond market](https://www.sciencedirect.com/science/article/abs/pii/S0927539800000025)
 
 ### Trading Strategies
 * (2007) [Quantitative Analysis, Derivatives Modeling, And Trading Strategies: In The Presence Of Counterparty Credit Risk For The Fixed-Income Market](https://www.amazon.com/Quantitative-Analysis-Derivatives-Modeling-Strategies/dp/9813203226/ref=sr_1_1?dchild=1&keywords=quantiative+analysis+derivative+modeling+and+trading&qid=1586714088&s=books&sr=1-1-spell), Chapter 15
