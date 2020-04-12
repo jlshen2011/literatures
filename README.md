@@ -1,10 +1,8 @@
 # US Treasury Research
 
-<p align="center">
-<img src="images/tsy.gif?raw=true" width="400"/>
-</p>
+In this repository, I will post my notes on the U.S. Treasury market, with a focus on market microstructure, algorithmic trading and risk management.
 
-Notes on market microstructure, quantitative trading and modeling in the U.S. Treasury market.
+*Disclaimer*: All notes are based on public information online.
 
 
 ## References
