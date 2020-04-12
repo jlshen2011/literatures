@@ -21,20 +21,20 @@ A curated list of literatures on U.S. Treasury quantiative researches.
 
 
 ### Liquidity
-* [Examining Liquidity in On-the-Run and Off-the-Run Treasury Securities](https://www.treasury.gov/connect/blog/Pages/Examining-Liquidity-in-On-the-Run-and-Off-the-Run-Treasury-Securities.aspx)(2016)
-* [An Index of Treasury Market Liquidity: 1991-2017](https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr827.pdf)
-* [The Liquidity Hierarchy in the U.S. Treasury Market: Summary Statistics from CBOT Futures and TRACE Bond Data](https://www.cftc.gov/sites/default/files/2018-11/Liquidity%20Hierarchy%20in%20Tsy%20Mkt%20v4_ada.pdf)
-* [Measuring Treasury Market Liquidity](https://www.newyorkfed.org/medialibrary/media/research/epr/03v09n3/0309flempdf.pdf)
-* [Liquidity, volatility, and flights to safety in the US treasury market: Evidence from a new class of dynamic order book models](https://www.econstor.eu/bitstream/10419/93594/1/733627927.pdf)
-* [The Flight-to-Liquidity Premium in U.S. Treasury Bond Prices](https://www.nber.org/papers/w9312.pdf)
+* [The Liquidity Hierarchy in the U.S. Treasury Market: Summary Statistics from CBOT Futures and TRACE Bond Data](https://www.cftc.gov/sites/default/files/2018-11/Liquidity%20Hierarchy%20in%20Tsy%20Mkt%20v4_ada.pdf) (2018)
+* [An Index of Treasury Market Liquidity: 1991-2017](https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr827.pdf) (2017)
+* [Examining Liquidity in On-the-Run and Off-the-Run Treasury Securities](https://www.treasury.gov/connect/blog/Pages/Examining-Liquidity-in-On-the-Run-and-Off-the-Run-Treasury-Securities.aspx) (2016)
+* [Measuring Treasury Market Liquidity](https://www.newyorkfed.org/medialibrary/media/research/epr/03v09n3/0309flempdf.pdf) (2003)
+* [The Flight-to-Liquidity Premium in U.S. Treasury Bond Prices](https://www.nber.org/papers/w9312.pdf) (2002)
 
 
 ### Hedging, Risk Management
-* [A Guide to Duration, DV01, and Yield Curve Risk Transformations](http://www.closemountain.com/papers/risktransform1.pdf)
-* [Principles of Principal Components: A Fresh Look at Risk, Hedging, and Relative Value](http://quantlabs.net/academy/download/free_quant_instituitional_books_/[Salomon%20Smith%20Barney]%20Principles%20of%20Principal%20Components%20-%20A%20Fresh%20Look%20at%20Risk,%20Hedging%20and%20Relative%20Value.pdf)
+* [A Guide to Duration, DV01, and Yield Curve Risk Transformations](http://www.closemountain.com/papers/risktransform1.pdf) (2011)
+* [Principles of Principal Components: A Fresh Look at Risk, Hedging, and Relative Value](http://quantlabs.net/academy/download/free_quant_instituitional_books_/[Salomon%20Smith%20Barney]%20Principles%20of%20Principal%20Components%20-%20A%20Fresh%20Look%20at%20Risk,%20Hedging%20and%20Relative%20Value.pdf) (2000)
 
 
 ### Auctions, News Announcements, High Frequency Trading
+* [Liquidity, volatility, and flights to safety in the US treasury market: Evidence from a new class of dynamic order book models](https://www.econstor.eu/bitstream/10419/93594/1/733627927.pdf) (2018)
 * [Handbook of Fixed-Income Securities](https://www.amazon.com/Fixed-Income-Securities-Handbooks-Engineering-Econometrics-ebook/dp/B01DEWCS3W/ref=sr_1_1?dchild=1&keywords=handbook+of+fixed+income+pietro&qid=1586713734&s=books&sr=1-1), Chapter 11
 * [High Frequency Trading around Macroeconomic News Announcements: Evidence from the US Treasury Market](https://www.bankofcanada.ca/wp-content/uploads/2014/12/wp2014-56.pdf)
 * [The Announcement Effect: Evidence from Open Market Desk Data](https://core.ac.uk/download/pdf/6792938.pdf)
