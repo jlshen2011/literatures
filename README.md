@@ -58,5 +58,6 @@ dynamic order book models](https://www.econstor.eu/bitstream/10419/93594/1/73362
 * [The Aggregate Demand for Treasury Debt](https://faculty.haas.berkeley.edu/vissing/demandtreas_jan6.pdf)
 * [How Do Treasury Dealers Manage Their Positions?
 ](https://poseidon01.ssrn.com/delivery.php?ID=592098125026004087117086105075124025031062030036027094096098122077111118023125117022002118044037105004117023028007024115125115026048010030044100014073000091064003057054084089088089072067100085017115116098003117013119099004094115021111015071101028069&EXT=pdf)
+* [The bond/old-bond spread](https://www.sciencedirect.com/science/article/abs/pii/S0304405X02002076)
 
 
