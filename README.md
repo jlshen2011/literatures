@@ -1,4 +1,4 @@
-# U.S. Treasury Quantiative Research
+# us-treasury-literature
 
 A curated list of literatures (post 2000) on U.S. Treasury quantiative researches.
 
