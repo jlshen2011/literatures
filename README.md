@@ -1,6 +1,6 @@
 # us-treasury-literature
 
-Here's a curated list of literatures (post 2000) on U.S. Treasury quantitative research. 
+A curated list of literatures (post 2000) on U.S. Treasury quantitative research. 
 
 ### The official website
 * [TreasuryDirect](https://www.treasurydirect.gov/)
