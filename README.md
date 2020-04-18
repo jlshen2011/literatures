@@ -1,6 +1,6 @@
 # us-treasury-literature
 
-A curated list of literatures (post 2000) on U.S. Treasury quantiative researches.
+Here's a curated list of literatures (post 2000) on U.S. Treasury quantiative researches. At the meanwhile, I am also working on notes for market microstructure, quantitative trading and modeling in the U.S. Treasury market.
 
 
 ### The Official Website
