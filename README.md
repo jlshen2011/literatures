@@ -2,25 +2,25 @@
 
 A curated list of literatures (post 2000) on U.S. Treasury quantitative research. 
 
-### The official website
+## The official website
 * [TreasuryDirect](https://www.treasurydirect.gov/)
 
 
-### The "official" book
+## The "official" book
 * [The Treasury Bond Basis: An in-Depth Analysis for Hedgers, Speculators, and Arbitrageurs](https://www.amazon.com/Treasury-Bond-Basis-Depth-Arbitrageurs/dp/0071456104/ref=sr_1_1?dchild=1&keywords=treasury+bond+basis&qid=1586724485&sr=8-1) (2005)
 
 
-### My favorite papers
+## My favorite papers
 * [The Microstructure of a U.S. Treasury ECN: The BrokerTec Platform](https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr381.pdf) (2017)
 * [The Microstructure of the U.S. Treasury Market](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1070226) (2009)
 
 
-### Yield curve and term Structure
+## Yield curve and term Structure
 * [Modeling the Term Structure from the On-the-Run Treasury Yield Curve](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=291340) (2001)
 * [The U.S. Treasury Yield Curve: 1961 to the Present](https://www.federalreserve.gov/pubs/feds/2006/200628/200628pap.pdf) (2007)
 
 
-### Liquidity
+## Liquidity
 * [An Index of Treasury Market Liquidity: 1991-2017](https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr827.pdf) (2017)
 * [Are Larger Treasury Issues More Liquid? Evidence from Bill Reopenings](https://www.jstor.org/stable/3270705?seq=1) (2002)
 * [Examining Liquidity in On-the-Run and Off-the-Run Treasury Securities](https://www.treasury.gov/connect/blog/Pages/Examining-Liquidity-in-On-the-Run-and-Off-the-Run-Treasury-Securities.aspx) (2016)
@@ -30,12 +30,12 @@ A curated list of literatures (post 2000) on U.S. Treasury quantitative research
 * [The Price of Future Liquidity: Time-Varying Liquidity in the U.S. Treasury Market](https://academic.oup.com/rof/article-abstract/9/1/1/1574108?redirectedFrom=fulltext) (2005)
 
 
-### Hedging and risk management
+## Hedging and risk management
 * [A Guide to Duration, DV01, and Yield Curve Risk Transformations](http://www.closemountain.com/papers/risktransform1.pdf) (2011)
 * [Principles of Principal Components: A Fresh Look at Risk, Hedging, and Relative Value](http://quantlabs.net/academy/download/free_quant_instituitional_books_/[Salomon%20Smith%20Barney]%20Principles%20of%20Principal%20Components%20-%20A%20Fresh%20Look%20at%20Risk,%20Hedging%20and%20Relative%20Value.pdf) (2000)
 
 
-### Auctions, news, and high frequency trading
+## Auctions, news, and high frequency trading
 * [Automation versus Intermediation: Evidence from Treasuries Going Off the Run](https://faculty.haas.berkeley.edu/hender/on-off.pdf) (2006)
 * [Economic News and Bond Prices: Evidence from the U.S. Treasury Market](https://www.jstor.org/stable/2676223?seq=1) (2001)
 * [Economic News and the Impact of Trading on Bond Price](https://www.jstor.org/stable/3694734?seq=1) (2004)
@@ -60,12 +60,12 @@ A curated list of literatures (post 2000) on U.S. Treasury quantitative research
 * [The Transition to Electronic Communications Networks in the Secondary Treasury Market](https://files.stlouisfed.org/files/htdocs/publications/review/06/11/Mizrach.pdf) (2006)
 
 
-### Trading strategies
+## Trading strategies
 * [Profitable Opportunities around Macroeconomic Announcements in the U.S. Treasury Market](http://dr.library.brocku.ca/bitstream/handle/10464/3364/Brock_Luo_Haiming_2011.pdf?sequence=1) (2010)
 * [Quantitative Analysis, Derivatives Modeling, And Trading Strategies: In The Presence Of Counterparty Credit Risk For The Fixed-Income Market](https://www.amazon.com/Quantitative-Analysis-Derivatives-Modeling-Strategies/dp/9813203226/ref=sr_1_1?dchild=1&keywords=quantiative+analysis+derivative+modeling+and+trading&qid=1586714088&s=books&sr=1-1-spell) (2007, Chapter 15)
 * [The Bond/Old-Bond Spread](https://www.sciencedirect.com/science/article/abs/pii/S0304405X02002076) (2001)
 
 
-### Bond futures
+## Bond futures
 * [The Treasury Futures Delivery Process](https://www.cmegroup.com/trading/interest-rates/files/us-treasury-futures-delivery-process.pdf) (2018)
 * [Understanding Treasury Futures](https://www.cmegroup.com/education/files/understanding-treasury-futures.pdf) (2017)
