@@ -25,29 +25,16 @@ The objective for causal inference is to estimate the treatment effect from the 
 * Individual treatment effect (ITE): At the individual level, the treatment effect is called individual treatment effect.
 
 
-## Controlled experiments, A/B testng
+## Randomized controlled trials
 
-one applies a “treatment” to
-some set of “subjects” and observes some “outcomes.” The
-outcomes for the treated subjects can be compared with the
-outcomes for the untreated subjects (the control group) to determine the causal effect of the treatment on the subjects.
+This the gold standard method. However, experiments are often costly and in many important cases are not feasible. In observational studies, the possibility of bias arises because a difference in the treatment outcome may be caused by a factor that predicts treatment rather than the treatment itself. 
 
-However, experiments are often costly and in many important
-cases are not feasible.
 
-## Train-test-treat-compare, Estimate treatment effect on the treated
+## Methods for repeated observations of outcomes over time
 
-TTTC is a generalization of the classic treatment–control
-approach to experimentation. In that model, the control group provides an estimate of the counterfactual, which is the gold
-standard for causal inference. However, even if we do not have a
-true control group, we still may be able to develop a predictive
-model of the counterfactual using other methods. 
+### Diffference-in-differences
 
-In TTTC, the model is estimated during the training
-period and its predictive performance is assessed during the test period. The
-extrapolation of the model during the treat period (red line) serves as a
-counterfactual. This counterfactual is compared with the actual outcome (black
-line), and the difference is the estimated treatment effect. When the treatment is ended, the outcome returns to something close to the original level.
+the difference-in-differences analysis, looks at the difference in outcomes between those who are treated and those who are not treated before and after the treatment of interest takes place.25,26  The assumption here is that if the treatment influences the outcome of interest, then there should be a change in the difference between those who are treated and those who are not, from before to after the intervention. A typical use case for these types of methods is a marketing campaign or a new product feature that is launched in a particular city.
 
 We have seen that causal inference involves comparing actual
 outcomes to counterfactual outcomes. The standard approach is
@@ -56,18 +43,6 @@ untreated subjects. In this case, the counterfactual is a prediction
 of the outcome for those treated if they had not been treated,
 which is typically based on the outcome for the control group
 (sometimes with an adjustment for other factors).
-
-
- RCT is the traditional gold standard that enables unbiased estimation of treatment effects. However, in observational studies, the possibility of bias arises because a difference in the treatment outcome may be caused by a factor that predicts treatment rather than the treatment itself, known as confoundedness. As a result, it’s desirable to replicate a randomized experiment as closely as possible through various strategies.
-
-
- We have carried out separate research to estimate the delay and decay of treatment effects over time, which we won’t discuss in this article due to length constraints. If you would like to include repeated observations of outcome over time into your causal research design, depending on whether you have control time series data from a non-treated unit, you can consider approaches like difference-in-difference and interrupted time series synthetic control, among others. Uber has also discussed various causal inference methods for time series observations in their post.
-
-
-
-
-
-## Difference in differences
 
 Difference in Differences. In this case, we have two groups, the treated and the untreated, and two time periods, before treatment and after treatment. We also have a number of predictors that may affect the observed values of the outcome for each group. 
 
@@ -82,6 +57,47 @@ treated units to get the counterfactual and then compare the
 actual outcome to the counterfactual.
 
 
+### Train-test-treat-compare, Estimate treatment effect on the treated
+
+TTTC is a generalization of the classic treatment–control
+approach to experimentation. In that model, the control group provides an estimate of the counterfactual, which is the gold
+standard for causal inference. However, even if we do not have a
+true control group, we still may be able to develop a predictive
+model of the counterfactual using other methods. 
+
+In TTTC, the model is estimated during the training
+period and its predictive performance is assessed during the test period. The
+extrapolation of the model during the treat period (red line) serves as a
+counterfactual. This counterfactual is compared with the actual outcome (black
+line), and the difference is the estimated treatment effect. When the treatment is ended, the outcome returns to something close to the original level.
+
+
+## Methods for one snapshot of the outcome
+
+### Propensity matching
+
+### Inverse propensity weighting
+
+### Doubly robust learning
+
+### Stratification
+
+To adjust selection bias, stratification (also known as subclassification or blocking) splits the entire group into homogeneous subgroups, where within each subgroup, ideally the treated group and the control group are similar under certain measurements over covariates. Then the treatment effect within each subgroup can be calculated using a method first developed on RCT data. With the CATE of each subgroup, the treatment effect over the interested group can be obtained by combining the CATEs of subgroups belonging to that group. 
+
+### Meta-learning methods
+
+Meta-learners can take advantage of any supervised learning or regression methods in machine learning and statistics to estimate a treatment effect, such as the conditional average treatment effect (CATE) function.
+
+#### S-learner
+This algorithm estimates the target variable using all the covariate features and treatment indicator, without giving the treatment indicator any special role. The estimate is done using a single algorithm estimator, hence the name S-learner. The estimation consists of two stages. First, a predictive model is built using the outcome as a target and control for both treatment and other features. Then the difference is calculated among the estimated values when the treatment assignment indicator is changed from control to treatment, with all other features held fixed. The difference among the estimated values is the CATE for an individual unit.
+
+
+#### T-learner
+This algorithm estimates the response functions separately for the treatment and control populations. First, it uses base learners to estimate the conditional expectations of the outcomes separately for units under control and those under treatment. Second, it takes the difference between these estimates. We refer to the general mechanism of estimating the response functions separately as the T-learner, “T” being short for “two.”
+
+#### X-learner
+
+#### R-learner
 
 ## References
 * [A comparison of approaches to advertising measurement: evidence from big field experiments at Facebook](https://www.kellogg.northwestern.edu/faculty/gordon_b/files/fb_comparison.pdf)
