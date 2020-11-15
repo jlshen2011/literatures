@@ -1,3 +1,3 @@
-# Literatures
+# Literatures and Summaries
 
-A curated list of literatures on various finance and data science topics.
+Literatures and study notes on topics in data science and quantitative finance.
