@@ -18,12 +18,11 @@ Selection bias is a phenomenon in which the distribution of the observed group i
 Ignorability refers to that given pre-treatment covariates, treatment assignment is independent from the potential outcomes. This is one of the fundamental assumptions for many causal inferecnce methods
 
 ### Types of treatment effects
-The objective for causal inference is to estimate the treatment effect from the observational data. The treatment effect can be measured at the population, treated group, subgroup, and individual levels. 
-
-	* Average treatment effect (ATE): At the population level, the treatment effect is called the average treatment effect (ATE).
-	* Average treatment effect on the treated (ATT): For the treated group, the treatment effect is called the average treatment effect on the treated group (ATT).
-	* Conditional average treatment effect (CATE): At the subgroup level, the treatment effect is called conditional average treatment effect (CATE).
-	* Individual treatment effect (ITE): At the individual level, the treatment effect is called individual treatment effect.
+The objective for causal inference is to estimate the treatment effect from the observational data. The treatment effect can be measured at the population, treated group, subgroup, and individual levels: 
+* Average treatment effect (ATE): At the population level, the treatment effect is called the average treatment effect (ATE).
+* Average treatment effect on the treated (ATT): For the treated group, the treatment effect is called the average treatment effect on the treated group (ATT).
+* Conditional average treatment effect (CATE): At the subgroup level, the treatment effect is called conditional average treatment effect (CATE).
+* Individual treatment effect (ITE): At the individual level, the treatment effect is called individual treatment effect.
 
 
 ## Controlled experiments, A/B testng
