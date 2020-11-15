@@ -1,4 +1,12 @@
-# Causal Inference Methods
+# Causal Inference
+
+## Literatures
+* [A comparison of approaches to advertising measurement: evidence from big field experiments at Facebook](https://www.kellogg.northwestern.edu/faculty/gordon_b/files/fb_comparison.pdf)
+* [Causal inference (Part 1 of 3): Understanding the fundamentals](https://medium.com/data-science-at-microsoft/causal-inference-part-1-of-3-understanding-the-fundamentals-816f4723e54a)
+* [Causal inference (Part 2 of 3): Selecting algorithms](https://medium.com/data-science-at-microsoft/causal-inference-part-2-of-3-selecting-algorithms-a966f8228a2d)
+* [Causal inference in economics and marketing](https://www.pnas.org/content/pnas/113/27/7310.full.pdf)
+* [Evaluating online ad campaigns in a pipeline: causal models at scale](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36552.pdf)
+* [Using causal inference to improve the Uber user experience](https://eng.uber.com/causal-inference-at-uber/)
 
 
 ## Causal inference fundamentals
@@ -71,7 +79,7 @@ which is typically based on the outcome for the control group
 
 
 
- 
+
 
 ## Difference in differences
 
