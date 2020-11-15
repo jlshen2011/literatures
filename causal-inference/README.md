@@ -3,32 +3,27 @@
 
 ## Concepts
 
-### Potential, actual, and counterfactual outcomes
+### Counterfactual outcomes
 Counterfactual outcome is the outcome that would have occurred if something different had happened. If a unit was treated, we observe the outcome for being treated, which becomes the actual outcome. But we cannot observe the outcome if the unit didn’t get treated, which becomes the counterfactual outcome.
 
 Causal inference methods employ various assumptions to let us estimate the unobservable counterfactual outcome. By doing this, we can use them to make the appropriate comparison and estimate the treatment effect.
 
 ### Confounders
-Causal effects are changes in outcomes due to changes in treatments, holding all other variables constant. Basically, if something other than the treatment differs between the treated and untreated groups, we cannot conclusively say that any difference observed in the outcome is due solely to the treatment. A confounding variable is a variable that influences both the treatment and outcome, causing a spurious association. Any variable that differs between the treatment and control groups could potentially be a confounding variable if it also influences the outcome. A correlation between having the treatment and having a good outcome, for example, could be due to confounders.
+Causal effects are changes in outcomes due to changes in treatments, holding all other variables constant. A confounding variable is a variable that influences both the treatment and outcome, causing a spurious association. Any variable that differs between the treatment and control groups could potentially be a confounding variable if it also influences the outcome. A correlation between having the treatment and having a good outcome, for example, could be due to confounders.
 
 ### Selection bias
-Selection bias is a phenomenon in which the distribution of the observed group is not representative of the group we are interested in. 
+Selection bias is a phenomenon in which the distribution of the observed group is not representative of the group we are interested in. Confounders usually affect treatment choices among units, which leads to the selection bias. 
 
 ### Ignorability
-This assumption can sometimes be referred to as the “no unmeasured confounders assumption”. (See A Survey on Causal Inference.) Given pre-treatment covariates X, treatment assignment is independent from the potential outcomes:
-Y ⁰, Y ¹ ⫫ T |X
-For example, suppose X is a single variable (age) that can take the values “younger” or “older”. Older people are more likely to get treatment T = 1. Older people are also more likely to have the outcome “hip fracture,” regardless of treatment. Thus, Y ⁰ and Y ¹ are not independent from T (marginally). However, within levels of X, treatment might be randomly assigned.
-
+Ignorability refers to that given pre-treatment covariates, treatment assignment is independent from the potential outcomes. This is one of the fundamental assumptions for many causal inferecnce methods
 
 ### Types of treatment effects
-Average treatment effect (ATE): At the population level, the treatment effect is called the average treatment effect (ATE),
+The objective for causal inference is to estimate the treatment effect from the observational data. The treatment effect can be measured at the population, treated group, subgroup, and individual levels. 
 
-Average treatment effect on the treated (ATT): For the treated group, the treatment effect is called the average treatment effect on the treated group (ATT)
-
-Conditional average treatment effect (CATE): At the subgroup level, the treatment effect is called conditional average treatment effect (CATE), which is defined as:
-
-
-Individual treatment effect (ITE): At the individual level, the treatment effect is called individual treatment effect 
+	* Average treatment effect (ATE): At the population level, the treatment effect is called the average treatment effect (ATE).
+	* Average treatment effect on the treated (ATT): For the treated group, the treatment effect is called the average treatment effect on the treated group (ATT).
+	* Conditional average treatment effect (CATE): At the subgroup level, the treatment effect is called conditional average treatment effect (CATE).
+	* Individual treatment effect (ITE): At the individual level, the treatment effect is called individual treatment effect.
 
 
 ## Controlled experiments, A/B testng
