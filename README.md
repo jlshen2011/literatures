@@ -1,3 +1,3 @@
-# Literatures and Summaries
+# Study Notes
 
-Literatures and study notes on topics in data science and quantitative finance.
+Study notes, summaries and literatue reviews on various topics in data science and quantitative finance.
