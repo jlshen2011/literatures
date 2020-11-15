@@ -89,13 +89,23 @@ To adjust selection bias, stratification (also known as subclassification or blo
 Meta-learners can take advantage of any supervised learning or regression methods in machine learning and statistics to estimate a treatment effect, such as the conditional average treatment effect (CATE) function.
 
 #### S-learner
+
 This algorithm estimates the target variable using all the covariate features and treatment indicator, without giving the treatment indicator any special role. The estimate is done using a single algorithm estimator, hence the name S-learner. The estimation consists of two stages. First, a predictive model is built using the outcome as a target and control for both treatment and other features. Then the difference is calculated among the estimated values when the treatment assignment indicator is changed from control to treatment, with all other features held fixed. The difference among the estimated values is the CATE for an individual unit.
 
 
 #### T-learner
+
 This algorithm estimates the response functions separately for the treatment and control populations. First, it uses base learners to estimate the conditional expectations of the outcomes separately for units under control and those under treatment. Second, it takes the difference between these estimates. We refer to the general mechanism of estimating the response functions separately as the T-learner, “T” being short for “two.”
 
 #### X-learner
+
+When real-world data contains more control group than treatment group, the likelihood of overfitting the treatment group when using T-learner is high. X-learner tries to avoid this by using information from the control group to derive better estimators for the treatment group and vice versa.
+
+X-learner is built on T-learner and uses each observation in the training set in an “X”-like shape, hence its name X-learner. X-learner consists of three stages:
+
+1. Estimate the average outcome for treatment and control groups, independently, using arbitrary machine learning models.
+2. Impute the user-level treatment effects for a user in the treatment group based on its actual outcome and the estimated function in step 1, similarly for a user in the control group.
+3. Define the CATE estimate by a weighted average of the two imputed treatment effects. 
 
 #### R-learner
 
