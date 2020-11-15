@@ -1,23 +1,15 @@
 # Causal Inference
 
-## Literatures
-* [A comparison of approaches to advertising measurement: evidence from big field experiments at Facebook](https://www.kellogg.northwestern.edu/faculty/gordon_b/files/fb_comparison.pdf)
-* [Causal inference (Part 1 of 3): Understanding the fundamentals](https://medium.com/data-science-at-microsoft/causal-inference-part-1-of-3-understanding-the-fundamentals-816f4723e54a)
-* [Causal inference (Part 2 of 3): Selecting algorithms](https://medium.com/data-science-at-microsoft/causal-inference-part-2-of-3-selecting-algorithms-a966f8228a2d)
-* [Causal inference in economics and marketing](https://www.pnas.org/content/pnas/113/27/7310.full.pdf)
-* [Evaluating online ad campaigns in a pipeline: causal models at scale](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36552.pdf)
-* [Using causal inference to improve the Uber user experience](https://eng.uber.com/causal-inference-at-uber/)
 
-
-## Causal inference fundamentals
+## Concepts
 
 ### Potential, actual, and counterfactual outcomes
-Each unit of observational data has either received the treatment or not. That means one of the potential outcomes is an actual outcome (i.e., something that we see in the data). The other potential outcome is a counterfactual one. It is the outcome that would have occurred if something different had happened. If a unit was treated, we observe the outcome for being treated, which becomes the actual outcome. But we cannot observe the outcome if the unit didn’t get treated, which becomes the counterfactual outcome.
+Counterfactual outcome is the outcome that would have occurred if something different had happened. If a unit was treated, we observe the outcome for being treated, which becomes the actual outcome. But we cannot observe the outcome if the unit didn’t get treated, which becomes the counterfactual outcome.
 
-What that means is that the question of causality comes down to comparing actual outcomes with counterfactual outcomes; in other words, what would have happened if things had been different. Causal inference methods employ various assumptions to let us estimate the unobservable counterfactual outcome. By doing this, we can use them to make the appropriate comparison and estimate the treatment effect.
+Causal inference methods employ various assumptions to let us estimate the unobservable counterfactual outcome. By doing this, we can use them to make the appropriate comparison and estimate the treatment effect.
 
 ### Confounders
-Causal effects are changes in outcomes due to changes in treatments, holding all other variables constant. Basically, if something other than the treatment differs between the treated and untreated groups, we cannot conclusively say that any difference observed in the outcome is due solely to the treatment. This “mixing of effects” is a confounding effect. A confounding variable (also known as confounder) is a variable that influences both the treatment and outcome, causing a spurious association. Any variable that differs between the treatment and control groups could potentially be a confounding variable if it also influences the outcome. A correlation between having the treatment and having a good outcome, for example, could be due to confounders.
+Causal effects are changes in outcomes due to changes in treatments, holding all other variables constant. Basically, if something other than the treatment differs between the treated and untreated groups, we cannot conclusively say that any difference observed in the outcome is due solely to the treatment. A confounding variable is a variable that influences both the treatment and outcome, causing a spurious association. Any variable that differs between the treatment and control groups could potentially be a confounding variable if it also influences the outcome. A correlation between having the treatment and having a good outcome, for example, could be due to confounders.
 
 ### Selection bias
 Selection bias is a phenomenon in which the distribution of the observed group is not representative of the group we are interested in. 
@@ -94,4 +86,14 @@ applied. Here, we can build a predictive model for those units
 where no treatment was applied. We then apply this model to the
 treated units to get the counterfactual and then compare the
 actual outcome to the counterfactual.
+
+
+
+## References
+* [A comparison of approaches to advertising measurement: evidence from big field experiments at Facebook](https://www.kellogg.northwestern.edu/faculty/gordon_b/files/fb_comparison.pdf)
+* [Causal inference (Part 1 of 3): Understanding the fundamentals](https://medium.com/data-science-at-microsoft/causal-inference-part-1-of-3-understanding-the-fundamentals-816f4723e54a)
+* [Causal inference (Part 2 of 3): Selecting algorithms](https://medium.com/data-science-at-microsoft/causal-inference-part-2-of-3-selecting-algorithms-a966f8228a2d)
+* [Causal inference in economics and marketing](https://www.pnas.org/content/pnas/113/27/7310.full.pdf)
+* [Evaluating online ad campaigns in a pipeline: causal models at scale](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36552.pdf)
+* [Using causal inference to improve the Uber user experience](https://eng.uber.com/causal-inference-at-uber/)
 
